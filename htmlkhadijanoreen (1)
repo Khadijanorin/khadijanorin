@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="javascript khadija"></script>
+<title>Medical Store</title>
+<style>
+body {font-family: Arial; 
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/329/318/small/colorful-pills-capsules-glowing-cross-on-a-blue-gradient-background-medicine-health-care-symbols-copy-space-illustration-vector.jpg);
+   background-color: #cccccc;
+   background-repeat: repeat-y ;
+  background-size: 1500px;
+  width: 70%;
+}
+
+ .signup-form {
+            max-width: 300px;
+            margin: 20px auto;
+        }
+
+  .signup-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+ .signup-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+ .signup-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+ .signup-form button:hover {
+            background-color: #45a049;
+        }
+
+.account {
+            text-align: center;
+            margin: 20px;
+            width: 50%;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+.login-form {
+            max-width: 300px;
+            margin: 20px auto;
+        }
+
+ .login-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+ .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+.login-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+ .login-form button:hover {
+            background-color: #45a049;
+        }
+
+
+
+form.example input[type=text] {
+ box-sizing: border-box;
+  padding: 21px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 18%;
+  padding: 20px;
+  background: #2196F3;
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  width:85%;
+  border: 1px solid #ccc;
+  background-color:#0b7dda ;
+  
+  
+}
+#About us{
+  font-size:1.2em;
+  line-height:1.6;
+  color:black;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border:none ;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: plum;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:rgb(58, 224, 175);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  width:80%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+  label {
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+            display: block;
+        }
+
+ select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+select:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+ select option {
+            font-size: 1em;
+        }     
+        
+        
+ #product {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+
+
+.container {
+            width: 80%;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+  h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+ p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+ form {
+            margin-top: 1em;
+        }
+
+  label {
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+ input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 1em;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+input:focus, textarea:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+ button:hover {
+            background-color: #45a049;
+        }
+
+ @media screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+
+nav {
+                display: none;
+                flex-direction: column;
+            }
+
+nav.show {
+                display: flex;
+            }
+
+  #menu-icon {
+                display: block;
+            }
+        
+
+h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+ li {
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+            cursor: pointer;
+        }
+
+  .manufacturer-details {
+            display: none;
+            margin-left: 20px;
+        }
+ @media screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+</style>
+</head>
+
+<body>
+
+<h2>Medical store</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'About us')">About us</button>
+  <button class="tablinks" onclick="openCity(event, 'Product')">Product</button>
+  <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+  <button class="tablinks" onclick="openCity(event,'Placeorder')">Placeorder</button>
+   <button class="tablinks" onclick="openCity(event,'Categories')">Categories</button>
+   <button class="tablinks" onclick="openCity(event,'Manufacture')">Manufacture</button>
+   <button class="tablinks" onclick="openCity(event,'Login')">Login</button>
+   <button class="tablinks" onclick="openCity(event,'Signin')">Signin</button>
+</div>
+
+<div id="Login" class="tabcontent"  >
+    <header>
+        <h1>Login</h1>
+    </header>
+
+       <div class="account">
+        <h2>Login to Your Account</h2>
+        <form class="login-form" onsubmit="return loginUser()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+      </div>
+</div>
+<div id="Signin" class="tabcontent" >
+    <header>
+        <h1>Signin</h1>
+    </header>
+       <div class="account">
+        <h2>Create an Account</h2>
+        <form class="signup-form" onsubmit="return signupUser()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    
+</div>
+  
+<div id="Home" class="tabcontent"  >
+
+  <h3>Home</h3>
+  <div class="container"> 
+  <p>Welcome to Medical store </p>
+  <form class="example" action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  </div>
+  
+
+</div>
+
+<div id="About us" class="tabcontent">
+  <h2>About us</h2>
+  <div class="container">
+    <h2>Our Commitment to Your Health</h2>
+    <p>Welcome to our medical store, where your health and well-being are our utmost priorities. With a commitment to providing quality products and excellent service, we strive to be your trusted partner in maintaining a healthy lifestyle.</p>
+
+    <h2>What Sets Us Apart</h2>
+    <p>At our medical store, we understand the importance of accessible and reliable healthcare solutions. Here's what sets us apart:</p>
+    <ul>
+        <li>Wide Range of Medications: From essential pain relief medications to specialty products, we offer a comprehensive selection to meet your health needs.</li>
+        <li>Quality Medical Supplies: Our medical supplies, including first aid kits, bandages, and health monitors, are sourced from reputable manufacturers to ensure effectiveness and safety.</li>
+        <li>Health Essentials and More: Explore our range of health essentials, vitamins, supplements, personal care products, and more to support your overall well-being.</li>
+        <li>Specialized Care: Whether you require diabetic supplies, baby care essentials, orthopedic support, or elderly care products, we have you covered with specialized items.</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+    <p>Visit our store today or contact us for any inquiries. Your health journey is important to us, and we are here to assist you every step of the way.</p>
+</div>
+
+  
+</div>
+
+<div id="Product" class="tabcontent">
+  <h2>Product</h2>
+  <div class="container">
+    <h4>1.Medication:</h4>
+       <ul type="square">
+        <li>Allergy Medication</li>
+        <li>Pain Relief Medication</li>
+        <li>Cough and cold Remedies</li>
+        <li>Prescription Medication</li>
+        </ul>
+        <h4>2.Medical Supplies:</h4>
+       <ul type="square">
+        <li>First aid kits</li>
+        <li>Bandages and Dressing</li>
+        <li>Thermometers</li>
+        <li>Health Monitors</li>
+        </ul>
+        <h4>3.Health Essential</h4>
+       <ul type="square">
+        <li>Vitamins and Supplements</li>
+        <li>Personal Care Product</li>
+        <li>Skin Care item</li>
+        <li>Oral health product</li>
+        </ul>
+        <h4>Specialty Product</h4>
+       <ul type="square">
+        <li>Diabetic Supplies</li>
+        <li>Baby Care Essential</li>
+        <li>Orthopedic Support</li>
+        <li>Elderly Care Product</li>
+        </ul>
+  <label for="category">Select Category:</label>
+   <select id="category" onchange="updateSubcategories()">
+     <option value="selecteddisabled">Select catrgory</option>
+     <option value="medication">Medication</option>
+     <option value="medicalsupplies">Medical supplies</option>
+     <option value="healthessential">Health Essential</option>
+     <option value="specialtyproduct">Specialty Product</option>
+     </option>
+        
+  </select>
+  <label for="subcategory">Select SubCategory:</label>
+   <select id="subcategory">
+    <option value="selected disabled">Select Subcategory</option> 
+
+   </select>
+
+
+
+
+  </div>
+
+</div>
+<div id="Placeorder" class="tabcontent">
+  <header>
+        <h1>Medical Store - Place Order</h1>
+    </header>
+    <div class="container">
+    <main>
+        <form onsubmit="return validateForm()">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="deliveryMethod">Delivery Method:</label>
+            <select id="deliveryMethod" name="deliveryMethod" required>
+                <option value="standard">Standard Delivery</option>
+                <option value="express">Express Delivery</option>
+            </select>
+            <p>Must add address and name</p>
+
+            <label for="additionalInfo">Additional Information:</label>
+            <textarea id="additionalInfo" name="additionalInfo" rows="4"></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </main> 
+       </div>
+    </div>
+
+
+
+<div id="Categories" class="tabcontent">
+   <h3>Categories</h3>
+   <div class="container">
+   <h4>Welcome  to your easy-to-navigate categories:</h4>
+   <p>1.Medication<br>2.Medical Supplies<br>3.health Essential<br>4.Specialty Product</p>
+   </div>
+</div>
+
+<div id="Contact" class="tabcontent">
+   <h2>Contact Us</h2>
+
+    <div class="container">
+    <h2>Contact Information</h2>
+    <p>Feel free to reach out to us for any inquiries or assistance.</p>
+
+    <h2>Opening Hours</h2>
+    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+    <p>Saturday: 10:00 AM - 4:00 PM</p>
+    <p>Sunday: Closed</p>
+
+    <h2>Contact Form</h2>
+    <form onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+     </div>
+</div>
+
+
+
+<div id="Manufacture" class="tabcontent">
+    <h2>Medical Store Manufacturers</h2>
+  <div class="container">
+    <h3>Manufacturers:</h3>
+    <ul>
+        <li onclick="toggleDetails('manufacturer1')">Manufacturer 1</li>
+        <div id="manufacturer1" class="manufacturer-details">
+            <p>Details about Manufacturer 1...</p>
+        </div>
+        <li onclick="toggleDetails('manufacturer2')">Manufacturer 2</li>
+        <div id="manufacturer2" class="manufacturer-details">
+            <p>Details about Manufacturer 2...</p>
+        </div>
+        <!-- Add more manufacturers as needed -->
+    </ul>
+  </div>
+</div>
+
+
+  
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html> 
